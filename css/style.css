@@ -7,6 +7,7 @@
 .profile{
     display: flex;
     flex-direction: column;
+    margin: 10pt;
 }
 
 .profile h2{
