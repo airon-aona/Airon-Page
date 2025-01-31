@@ -40,6 +40,17 @@ main{
     align-items: center;
 }
 
+.cardHorizontal{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.cardHorizontal a{
+    text-decoration: none;
+}
+
 .cardH{
     margin-top: 10pt;
     margin-bottom: 10pt;
@@ -56,6 +67,8 @@ main{
     transition:  ease-in 0.2s;
 }
 
+
+
 .cardH:hover{
     box-shadow: #000000b0 3px 3px 10px;
 }
@@ -70,6 +83,10 @@ main{
     flex-wrap: wrap;
     width: 90%;
     margin-top: 25pt;
+}
+
+.cardVertical a{
+    text-decoration: none;
 }
 
 .cardV{
