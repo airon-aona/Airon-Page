@@ -1,3 +1,7 @@
+html{
+    width: 100vw;
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(4, 71, 109);
@@ -35,9 +39,18 @@ a{
 }
 
 main{
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.cards{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .cardHorizontal{
@@ -67,8 +80,6 @@ main{
     transition:  ease-in 0.2s;
 }
 
-
-
 .cardH:hover{
     box-shadow: #000000b0 3px 3px 10px;
 }
@@ -83,6 +94,8 @@ main{
     flex-wrap: wrap;
     width: 90%;
     margin-top: 25pt;
+    align-items: center;
+    justify-content: center;
 }
 
 .cardVertical a{
@@ -90,7 +103,7 @@ main{
 }
 
 .cardV{
-    width: 300pt;
+    width: 25%;
     background: rgb(1,51,156);
     background: linear-gradient(90deg, rgba(0,5,255,1) 0%, rgba(255,0,0,1) 100%);
     padding: 20pt;
@@ -98,8 +111,7 @@ main{
     border-radius: 10pt;
     cursor: pointer;
     transition:  ease-in 0.2s;
-    margin-top: 25pt;
-    margin-bottom: 25pt;
+    margin: 25pt;
 }
 
 .cardV:hover{
@@ -119,7 +131,7 @@ main{
 }
 
 .redes{
-    width: 50%;
+    width: 70%;
     font-size: 25pt;
     display: flex;
     justify-content: space-around;
@@ -129,56 +141,25 @@ main{
     cursor: pointer;
 }
 
-.galleryTitle{
-    margin-top: 25pt;
-    margin-bottom: 30pt;
+.gallery{
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
 }
 
-div.gallery {
-    border: 1px solid #ccc;
+.imageGallery{
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-div.gallery:hover {
-    border: 1px solid #777;
+.imageGallery .item{
+    margin: 15pt;
 }
-
-div.gallery img {
-    width: 100%;
-    height: auto;
-}
-
-div.desc {
-    padding: 15px;
-    text-align: center;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-.responsive {
-    padding: 0 6px;
-    float: left;
-    width: 24.99999%;
-}
-
-@media only screen and (max-width: 700px) {
-    .responsive {
-      width: 49.99999%;
-      margin: 6px 0;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    .responsive {
-      width: 100%;
-    }
-}
-
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
+.imageGallery .item img{
+    height: 220pt;
 }
 
 footer{
@@ -192,3 +173,14 @@ footer{
 footer a{
     font-weight: bold;
 }
+
+@media only screen and (max-width: 600px) {
+    .imageGallery .item img{
+        width: 100%;
+        height: auto;
+    }
+
+    .cardV{
+        width: 49%;
+    }
+  }
