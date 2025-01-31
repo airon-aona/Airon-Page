@@ -73,7 +73,7 @@ main{
 }
 
 .cardV{
-    width: 20%;
+    width: 300pt;
     background: rgb(1,51,156);
     background: linear-gradient(90deg, rgba(0,5,255,1) 0%, rgba(255,0,0,1) 100%);
     padding: 20pt;
@@ -81,6 +81,8 @@ main{
     border-radius: 10pt;
     cursor: pointer;
     transition:  ease-in 0.2s;
+    margin-top: 25pt;
+    margin-bottom: 25pt;
 }
 
 .cardV:hover{
