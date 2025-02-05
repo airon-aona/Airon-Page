@@ -9,4 +9,4 @@
 
 |coluna|coluna|
 |------|------|
-|Item 1 é muito grande|Item 2|
+|Item 1|Item 2|
