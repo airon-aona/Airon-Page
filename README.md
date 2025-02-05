@@ -6,3 +6,4 @@
 ## A página foi pensada para ter:
 - [X] Design responsivo.
 - [X] Facilitar o Compartilhamento de Atualizações sobre projetos.
+- [ ] Reais de projetos.
