@@ -4,4 +4,5 @@
 
 ### Uma simples página criada para compartilhar Projetos feitos por mim.
 
-- [ ] teste
+## A página foi pensada para ter:
+- [X] Design responsivo.
