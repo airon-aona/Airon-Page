@@ -8,6 +8,8 @@
 
     <link rel="stylesheet" href="./css/style.css">
 
+    <script src="./js/gallery.js"></script>
+
     <title>Airon Aona</title>
 </head>
 <body id="body">
@@ -67,15 +69,19 @@
 
             <div class="imageGallery">
                 <div class="item">
-                    <a href=""><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRCosQOVSWCs3qdWCePlbVKVj3lBg7HMOMwfOBDauEuNpwtGEZvquZVW-GI6bAVcRe4TOMChbWAi4-qsOTwXkkQIJgSZk8SgJE3SWZOCe8" alt=""></a>
+                    <img onclick="AbrirImagem('https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRCosQOVSWCs3qdWCePlbVKVj3lBg7HMOMwfOBDauEuNpwtGEZvquZVW-GI6bAVcRe4TOMChbWAi4-qsOTwXkkQIJgSZk8SgJE3SWZOCe8')" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRCosQOVSWCs3qdWCePlbVKVj3lBg7HMOMwfOBDauEuNpwtGEZvquZVW-GI6bAVcRe4TOMChbWAi4-qsOTwXkkQIJgSZk8SgJE3SWZOCe8" alt="">
                 </div>
                 <div class="item">
-                    <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/f/f0/Zebra_standing_alone_crop.jpg" alt=""></a>
+                    <img onclick="AbrirImagem('https://upload.wikimedia.org/wikipedia/commons/f/f0/Zebra_standing_alone_crop.jpg')" src="https://upload.wikimedia.org/wikipedia/commons/f/f0/Zebra_standing_alone_crop.jpg" alt="">
                 </div>
                 <div class="item">
-                    <a href=""><img src="https://www.meupositivo.com.br/doseujeito/wp-content/uploads/2023/10/Nova-ferramenta-do-Google-permite-identificar-imagens-geradas-por-IA.jpg" alt=""></a>
+                    <img onclick="AbrirImagem('https://www.meupositivo.com.br/doseujeito/wp-content/uploads/2023/10/Nova-ferramenta-do-Google-permite-identificar-imagens-geradas-por-IA.jpg')" src="https://www.meupositivo.com.br/doseujeito/wp-content/uploads/2023/10/Nova-ferramenta-do-Google-permite-identificar-imagens-geradas-por-IA.jpg" alt="">
                 </div>
             </div>
+        </div>
+
+        <div id="openImg" class="openImg">
+            <img id="view" src="" alt="" onclick="AbrirImagem()">
         </div>
 
         </main>
