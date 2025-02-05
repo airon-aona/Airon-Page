@@ -1,13 +1,9 @@
-function AbrirImagem(link){
-    var open = document.getElementById('openImg');
-    var view = document.getElementById('view');
+function OpenModal(src) {
+    var modal = document.getElementById('modal');
+    var img = document.getElementById('modalImg');
 
-    if(link != ''){
-        open.style.backgroundColor = "rgba(0, 0, 0, 0.342)"
-        view.src = link;
-    }else{
-        open.style.backgroundColor = 'none';
-        view.src = `none`;
+    if(src !== 'undefined'){
+        modal.classList.toggle('off');
+        img.src = src
     }
-    console.log(link);
 }

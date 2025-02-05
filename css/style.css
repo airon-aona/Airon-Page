@@ -175,19 +175,25 @@ footer a{
     font-weight: bold;
 }
 
-.openImg{
+.modal{
+    background-color: rgba(0, 0, 0, 0.95);
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    position: fixed;
-    width: 100%;
-    height: 100vh;
 }
 
-.openImg img{
-    min-width: 50vw;
-    max-width: 90vw;
+.modal img{
     max-height: 90vh;
+    max-width: 90vw;
+    min-width: 500pt;
+}
+
+.off{
+    display: none;
 }
 
 @media only screen and (max-width: 600px) {
