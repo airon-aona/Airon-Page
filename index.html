@@ -12,7 +12,11 @@
 
     <title>Airon Aona</title>
 </head>
-<body id="body">
+<body onload="Carregando()">
+
+    <div id="load">
+            <span class="visually-hidden">Loading...</span>
+    </div>
 
     <div class="profile">
         <div class="profileMain">
@@ -89,6 +93,16 @@
         <footer>
             <p>Copyright © 2025 <a href="#">Airon Aona</a>. Todos os direitos reservados.</p>
         </footer>
+
+        <script>
+            function Carregando() {
+                var loader = document.getElementById('load');
+                loader.style.display = 'none';
+                /*setInterval(function(){
+                    loader.style.display = 'none';
+                },1000);*/
+            }
+        </script>
 
     </body>
     </html>
