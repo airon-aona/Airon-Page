@@ -7,7 +7,4 @@
 
 - [X] Design responsivo.
 - [X] Facilitar o Compartilhamento de Atualizações sobre projetos.
-
-
-
 - [ ] Imagens reais de projetos realizados.
