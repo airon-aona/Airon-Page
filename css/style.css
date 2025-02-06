@@ -185,6 +185,11 @@ footer{
     margin-top: 25pt
 }
 
+footer p{
+    margin-right: 15pt;
+    margin-left: 15pt;
+}
+
 footer a{
     font-weight: bold;
 }
@@ -221,11 +226,15 @@ footer a{
 
 @media only screen and (max-width: 600px) {
     .imageGallery .item img{
-        width: 100%;
+        width: 90vw;
         height: auto;
     }
 
     .cardV{
         width: 49%;
+    }
+
+    .modal img{
+        min-width: auto;
     }
   }
