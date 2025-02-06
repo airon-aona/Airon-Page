@@ -197,6 +197,15 @@ footer a{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+
+.modal i{
+    font-size: 30pt;
+    position: fixed;
+    top: 30pt;
+    right: 30pt;
+    cursor: pointer;
 }
 
 .modal img{
