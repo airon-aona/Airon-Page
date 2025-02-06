@@ -4,6 +4,7 @@
 ### Uma simples página criada para compartilhar Projetos feitos por mim.
 
 ## A página foi pensada para ter:
+
 - [X] Design responsivo.
 - [X] Facilitar o Compartilhamento de Atualizações sobre projetos.
 - [ ] Imagens reais de projetos realizados.
