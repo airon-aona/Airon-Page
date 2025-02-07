@@ -36,6 +36,17 @@ main{
     justify-content: center;
 }
 
+.btnVoltar{
+    position: absolute;
+    top: 10pt;
+    left: 10pt;
+    background-color: cornsilk;
+    padding: 10pt 20pt;
+    border-radius: 10pt;
+    color: darkblue;
+    text-decoration: 0;
+}
+
 .lista{
     min-width: 25vw;
     height: 90vh;
@@ -50,7 +61,7 @@ main{
     background: none;
     border: none;
     width: 100%;
-    padding: 10pt;
+    padding: 10pt 0;
     font-size: 20pt;
     color: darkblue;
     border-bottom: solid darkblue 2pt;
