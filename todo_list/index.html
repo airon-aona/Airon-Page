@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <script src="./js/index.js"></script>
+
+    <title>To Do List</title>
+</head>
+<body>
+    <main>
+        <div class="lista">
+            <input type="text" class="name" value="Bloco de Notas">
+            <div class="utilities">
+                <div class="iconUtilitie"><i class="bi bi-plus-circle" onclick="OpenForm()"></i></div>
+            </div>
+            <div id="itemList" class="itemList">
+            </div>
+        </div>
+
+        <div id="formulario" class="formulario close">
+            <div class="form">
+                <div class="closeIcon"><i class="bi bi-x-circle" onclick="OpenForm()"></i></div>
+                <label>Escreva sua tarefa:</label>
+                <input type="text" id="nomeItem">
+                <div id="salvar" class="salvar" onclick="NewItem()">
+                    Salvar
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    
+        
+    <footer>
+        <p>Copyright © 2025 <a href="#">Airon Aona</a>. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

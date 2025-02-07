@@ -1,0 +1,145 @@
+html{
+    width: 100%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(4, 71, 109);
+    margin: 0;
+}
+
+footer a{
+    color: #fff;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1pt solid #fff;
+    margin-top: 25pt;
+    color: #fff;
+}
+
+footer p{
+    margin-right: 15pt;
+    margin-left: 15pt;
+}
+
+footer a{
+    font-weight: bold;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lista{
+    min-width: 25vw;
+    height: 90vh;
+    margin: 25pt;
+    background-color: cornsilk;
+    border-radius: 10pt;
+    padding: 10pt;
+    color: darkblue;
+}
+
+.name{
+    background: none;
+    border: none;
+    width: 100%;
+    padding: 10pt 0;
+    font-size: 20pt;
+    color: darkblue;
+    border-bottom: solid darkblue 2pt;
+}
+
+.utilities{
+    width: 100%;
+    margin: 5pt 0;
+    display: flex;
+    justify-content: end;
+}
+
+.iconUtilitie{
+    font-size: 20pt;
+    cursor: pointer;
+}
+
+.itemList{
+    display: flex;
+    flex-direction: column;
+}
+
+.item{
+    font-size: 15pt;
+    display: flex;
+    align-items: center;
+    margin: 5pt;
+    border-bottom: darkblue 1pt solid;
+    text-wrap: wrap;
+}
+
+.checked{
+    font-style:italic;
+    text-decoration: line-through;
+}
+
+.formulario{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.884);
+    border-radius: 10pt;
+    padding: 10pt;
+    color: darkblue;
+}
+
+.form{
+    background-color: cornsilk;
+    margin: 25pt;
+    padding: 10pt;
+    border-radius: 10pt;
+    margin-top: -100pt;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.closeIcon{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.form i{
+    cursor: pointer;
+    font-size: 15pt;
+}
+
+.form input{
+    background-color: cornsilk;
+    border: black solid 2pt;
+    padding: 5pt 2pt;
+}
+
+.salvar{
+    background-color: darkblue;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    border-radius: 10pt;
+    padding: 5pt;
+    margin-top: 5pt;
+    cursor: pointer;
+}
+
+.close{
+    display: none;
+}
